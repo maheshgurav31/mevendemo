@@ -32,7 +32,7 @@ public class AppTest {
 
     
     @Test
-    public void test18() {
+    public void test19() {
     test1 t=new test1();
         String expected = "naman";
         String actual =t.palindrome(expected);
