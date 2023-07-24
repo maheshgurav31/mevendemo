@@ -26,5 +26,16 @@ public class AppTest {
         String actual =t.palindrome(expected);
 
         Assertions.assertEquals(expected, actual);
+
+        
     }
+
+    
+    @Test
+    public void test18() {
+    test1 t=new test1();
+        String expected = "naman";
+        String actual =t.palindrome(expected);
+
+        Assertions.assertEquals(expected, actual);
     }
